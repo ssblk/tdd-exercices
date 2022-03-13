@@ -45,4 +45,11 @@ class FizzBuzzConverterTest {
         FizzBuzzConverter fizzbuzzconverter = new FizzBuzzConverter() ;
         String result= fizzbuzzconverter.converter(15);
         Assertions.assertEquals("FizzBuzz",result);}
+
+    @Test
+    public void fizzbuzzconvertershouldReturnListOfOneWhenInputIsOne(){
+        FizzBuzzConverter fizzbuzzconverter = new FizzBuzzConverter() ;
+        String result= fizzbuzzconverter.converter(15);
+        Assertions.assertEquals("FizzBuzz",result);}
+
 }
